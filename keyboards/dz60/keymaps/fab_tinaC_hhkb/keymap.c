@@ -46,7 +46,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 
 /* FN LAYER
- *
+ * outdated
  * ,------------------------------------------------------------------------------------------------------
  * |         | F1  | F2  | F3  | F4   | F5   | F6   | F7  | F8   | F9  | F10  | F11  | F12  |INSERT |  _  |
  * |------------------------------------------------------------------------------------------------------+
@@ -60,11 +60,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * `------------------------------------------------------------------------------------------------------'
  */
     [_FN] = LAYOUT_true_hhkb(
-            _______, KC_F1, KC_F2, KC_F3, KC_F4, KC_F5, KC_F6, KC_F7, KC_F8, KC_F9, KC_F10, KC_F11, KC_F12, KC_INS, _______,
-            _______, KC_LCTL, KC_LALT, KC_LSFT, _______, _______, _______, _______, KC_PSCR, KC_SLCK, KC_PAUS, KC_HOME, _______, KC_DEL,
-            KC_CAPS, KC_VOLD, KC_VOLU, KC_MUTE, _______, _______, KC_LEFT, KC_DOWN, KC_UP, KC_RGHT, KC_PGDN, KC_PGUP, _______,
-            _______, _______, _______, KC_MPLY, _______, _______, _______, _______, _______, _______, _______, KC_END, _______, _______,
-            _______, _______, _______, _______, _______
+            _______, KC_F1, KC_F2, KC_F3, KC_F4, KC_F5, KC_F6, KC_F7, KC_F8, KC_F9, KC_F10, KC_F11, KC_F12, KC_INS, KC_DEL,
+            KC_CAPS, KC_LCTL, KC_LALT, KC_LSFT, _______, _______, _______, _______, KC_PSCR, KC_SLCK, KC_PAUS, KC_HOME, KC_END, KC_BSPC,
+            MT(MOD_LCTL, KC_ESC), KC_VOLD, KC_VOLU, KC_MUTE, _______, _______, KC_LEFT, KC_DOWN, KC_UP, KC_RGHT, KC_PGDN, KC_PGUP, _______,
+            KC_LSPO, _______, _______, KC_MPLY, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______,
+            _______, KC_LALT, KC_SPC, KC_ESC, _______
             ),
 
 
